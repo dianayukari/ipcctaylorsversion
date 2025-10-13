@@ -3,14 +3,15 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	preprocess: vitePreprocess(),
+  preprocess: vitePreprocess(),
 
-	kit: {
-		adapter: adapter(),
-		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/ipcctaylorsversion' : ''
-		}
-	}
+  kit: {
+    adapter: adapter(),
+    appDir: 'app',
+    paths: {
+      base: dev ? "" : process.env.BASE_PATH || "/ipcctaylorversion",
+    },
+  },
 };
 
 export default config;
