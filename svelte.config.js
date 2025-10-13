@@ -9,7 +9,7 @@ const config = {
     adapter: adapter(),
     appDir: 'app',
     paths: {
-      base: dev ? "" : process.env.BASE_PATH || "/ipcctaylorversion",
+      base: dev ? "" : process.env.BASE_PATH || "/ipcctaylorsversion",
     },
   },
 };
