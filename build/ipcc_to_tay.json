@@ -1,0 +1,110 @@
+[
+   {
+      "row_id":1,
+      "item":"A.1 Human activities, principally through emissions of greenhouse gases, have unequivocally caused global warming, with global surface temperature reaching 1.1°C above 1850-1900 in 2011-2020. Global greenhouse gas emissions have continued to increase, with unequal historical and ongoing contributions arising from unsustainable energy use, land use and land-use change, lifestyles and patterns of consumption and production across regions, between and within countries, and among individuals (high confidence).",
+      "chapter":"Observed Warming and its Causes",
+      "transformed":"We’re burning bright, but the world’s on fire,  \nChasing dreams in a haze of desire,  \nFrom the cities to the fields, we’re lost in our ways,  \nWith every choice we make, the planet pays.  \n1.1 degrees, can you feel the heat?  \nIn the shadows of our lives, the truth is bittersweet.  \nUnequal burdens, we’re dancing on the edge,  \nIn this tangled web of greed, we’re"
+   },
+   {
+      "row_id":2,
+      "item":"A.2 Widespread and rapid changes in the atmosphere, ocean, cryosphere and biosphere have occurred. Human-caused climate change is already affecting many weather and climate extremes in every region across the globe. This has led to widespread adverse impacts and related losses and damages to nature and people (high confidence). Vulnerable communities who have historically contributed the least to current climate change are disproportionately affected (high confidence).",
+      "chapter":"Observed Changes and Impacts",
+      "transformed":"In the shadows of the storm, the world’s been rearranged,  \nOceans rising, skies are crying, nothing feels the same,  \nWe’re dancing on the edge, while the innocent pay the price,  \nThose who’ve given the least, now caught in this sacrifice.  \nWhispers of the future, echo through the night,  \nWe’re fighting for tomorrow, gotta make it right."
+   },
+   {
+      "row_id":3,
+      "item":"A.3 Adaptation planning and implementation has progressed across all sectors and regions, with documented benefits and varying effectiveness. Despite progress, adaptation gaps exist, and will continue to grow at current rates of implementation. Hard and soft limits to adaptation have been reached in some ecosystems and regions. Maladaptation is happening in some sectors and regions. Current global financial flows for adaptation are insufficient for, and constrain implementation of, adaptation options, especially in developing countries (high confidence).",
+      "chapter":"Current Progress in Adaptation and Gaps and Challenges",
+      "transformed":"In a world where we’re trying to change,  \nWe’re building bridges, but the gaps remain,  \nSome hearts are heavy, some dreams are lost,  \nWe’re fighting hard, but we’re counting the cost.  \nWith every step, we’re reaching for the light,  \nBut shadows linger, holding on too tight,  \nIn the echoes of the past, we find our way,  \nStill, the road is long, and we’re feeling the sway."
+   },
+   {
+      "row_id":4,
+      "item":"A.4 Policies and laws addressing mitigation have consistently expanded since AR5. Global GHG emissions in 2030 implied by nationally determined contributions (NDCs) announced by October 2021 make it likely that warming will exceed 1.5°C during the 21st century and make it harder to limit warming below 2°C. There are gaps between projected emissions from implemented policies and those from NDCs and finance flows fall short of the levels needed to meet climate goals across all sectors and regions. (high confidence).",
+      "chapter":"Current Mitigation Progress, Gaps and Challenges",
+      "transformed":"In the shadows of the promises we made,  \nPolicies rising, but the truth won't fade,  \nEmissions climbing, the clock's ticking fast,  \nChasing dreams of a future, but the die is cast.  \nGaps in our actions, the world's holding its breath,  \nFighting for a future, but we're dancing with death,  \nNDCs whisper, but the finance falls short,  \nIn this climate battle, we need a new report."
+   },
+   {
+      "row_id":5,
+      "item":"B.1 Continued greenhouse gas emissions will lead to increasing global warming, with the best estimate of reaching 1.5°C in the near term in considered scenarios and modelled pathways. Every increment of global warming will intensify multiple and concurrent hazards (high confidence). Deep, rapid, and sustained reductions in greenhouse gas emissions would lead to a discernible slowdown in global warming within around two decades, and also to discernible changes in atmospheric composition within a few years (high confidence).",
+      "chapter":"Future Climate Change",
+      "transformed":"In a world that's burning bright, can we turn the tide tonight?  \nEvery degree we rise, brings a storm in disguise,  \nBut if we stand together, we can change the weather,  \nWith every breath we take, let’s make a promise, for our sake.  \nHold on tight, we can find a way,  \nTo cool the fire, and save the day."
+   },
+   {
+      "row_id":6,
+      "item":"B.2 For any given future warming level, many climate-related risks are higher than assessed in AR5, and projected long-term impacts are up to multiple times higher than currently observed (high confidence). Risks and projected adverse impacts and related losses and damages from climate change escalate with every increment of global warming (very high confidence). Climatic and non-climatic risks will increasingly interact, creating compound and cascading risks that are more complex and difficult to manage (high confidence).",
+      "chapter":"Climate Change Impacts and Climate-Related Risks",
+      "transformed":"In the shadows of a warming sky,  \nThe risks we face are rising high,  \nEvery degree, a heavy toll,  \nFuture storms take a deeper hold.  \nWith every step, the stakes grow real,  \nA tangled web we can't conceal,  \nThe world’s on fire, can’t you see?  \nThese echoes of our history."
+   },
+   {
+      "row_id":7,
+      "item":"B.3 Some future changes are unavoidable and/or irreversible but can be limited by deep, rapid and sustained global greenhouse gas emissions reduction. The likelihood of abrupt and/or irreversible changes increases with higher global warming levels. Similarly, the probability of low-likelihood outcomes associated with potentially very large adverse impacts increases with higher global warming levels. (high confidence).",
+      "chapter":"Likelihood and Risks of Unavoidable, Irreversible or Abrupt Changes",
+      "transformed":"In the shadows of tomorrow, we’re caught in the fight,  \nUnavoidable changes, dancing in the night.  \nBut if we stand together, and let our voices rise,  \nWe can turn the tide, beneath these heavy skies.  \nWith every heartbeat, we’ll chase the light,  \n‘Cause the higher we climb, the harder the fall,  \nBut hope’s a whisper, we’ll answer the call."
+   },
+   {
+      "row_id":8,
+      "item":"B.4 Adaptation options that are feasible and effective today will become constrained and less effective with increasing global warming. With increasing global warming, losses and damages will increase and additional human and natural systems will reach adaptation limits. Maladaptation can be avoided by flexible, multi-sectoral, inclusive, long-term planning and implementation of adaptation actions, with co-benefits to many sectors and systems. (high confidence).",
+      "chapter":"Adaptation Options and their Limits in a Warmer World",
+      "transformed":"In a world that's changing fast, we’re running out of time,  \nThe heat is rising high, and we’re losing what was mine,  \nBut if we stand together, with our hearts open wide,  \nWe can bend the tide, find a way to survive.  \nWith every step we take, let’s build a brighter day,  \nPlanning for tomorrow, in a brand new way,  \nNo more turning back, we’ll break through the chains,  \nWith hope"
+   },
+   {
+      "row_id":9,
+      "item":"B.5 Limiting human-caused global warming requires net zero CO2 emissions. Cumulative carbon emissions until the time of reaching net zero CO2 emissions and the level of greenhouse gas emission reductions this decade largely determine whether warming can be limited to 1.5°C or 2°C (high confidence). Projected CO2 emissions from existing fossil fuel infrastructure without additional abatement would exceed the remaining carbon budget for 1.5°C (50%) (high confidence).",
+      "chapter":"Carbon Budgets and Net Zero Emissions",
+      "transformed":"We’re chasing shadows in a world on fire,  \nCounting every breath, can we rise any higher?  \nThe clock is ticking, can’t ignore the signs,  \nWith every heartbeat, we’re running out of time.  \nFossil dreams are haunting, can’t let them take control,  \nWe’ve got to find a way to heal this broken soul.  \n1.5 degrees, we’re fighting for the light,  \nTogether we can turn this darkness into bright"
+   },
+   {
+      "row_id":10,
+      "item":"B.6 All global modelled pathways that limit warming to 1.5°C (>50%) with no or limited overshoot, and those that limit warming to 2°C (>67%), involve rapid and deep and, in most cases, immediate greenhouse gas emissions reductions in all sectors this decade. Global net zero CO2 emissions are reached for these pathway categories, in the early 2050s and around the early 2070s, respectively. (high confidence).",
+      "chapter":"Mitigation Pathways",
+      "transformed":"In a world where the clock's ticking fast,  \nChasing dreams, but we can't let 'em pass,  \nGotta cut the chains, let the green light shine,  \nThis decade's our chance, we gotta draw the line.  \nBy the time the sun sets on the '50s glow,  \nWe’ll reach for the stars, let the whole world know,  \nWith every heartbeat, we’re fighting for change,  \nTogether we rise, let love rearr"
+   },
+   {
+      "row_id":11,
+      "item":"B.7 If warming exceeds a specified level such as 1.5°C, it could gradually be reduced again by achieving and sustaining net negative global CO2 emissions. This would require additional deployment of carbon dioxide removal, compared to pathways without overshoot, leading to greater feasibility and sustainability concerns. Overshoot entails adverse impacts, some irreversible, and additional risks for human and natural systems, all growing with the magnitude and duration of overshoot. (high confidence).",
+      "chapter":"Overshoot: Exceeding a Warming Level and Returning",
+      "transformed":"If the world gets too warm, past that line we drew,  \nChasing shadows of the past, trying to break through,  \nWe’ll fight for a future, with every breath we take,  \nBut the cost of our choices, oh, it’s hard to shake.  \nIn the echoes of our actions, the scars will remain,  \nHolding on to hope, while we dance in the rain."
+   },
+   {
+      "row_id":12,
+      "item":"C.1 Climate change is a threat to human well-being and planetary health (very high confidence) . There is a rapidly closing window of opportunity to secure a liveable and sustainable future for all (very high confidence) . Climate resilient development integrates adaptation and mitigation to advance sustainable development for all, and is enabled by increased international cooperation including improved access to adequate financial resources, particularly for vulnerable regions, sectors and groups, and inclusive governance and coordinated policies (high confidence) . The choices and actions implemented in this decade will have impacts now and for thousands of years (high confidence).",
+      "chapter":"Urgency of Near-Term Integrated Climate Action",
+      "transformed":"In a world that's changing fast, we’re running out of time,  \nChasing dreams of a future where the stars can still shine,  \nWith every choice we make, the echoes will remain,  \nLet’s rise together now, break free from all the chains.  \nIn the shadows of the past, we’ll find a brighter way,  \nFor the ones who come behind us, we’ll fight for a new day."
+   },
+   {
+      "row_id":13,
+      "item":"C.2 Deep, rapid and sustained mitigation and accelerated implementation of adaptation actions in this decade would reduce projected losses and damages for humans and ecosystems (very high confidence) , and deliver many co-benefits, especially for air quality and health (high confidence) . Delayed mitigation and adaptation action would lock-in high-emissions infrastructure, raise risks of stranded assets and cost-escalation, reduce feasibility, and increase losses and damages (high confidence) . Near-term actions involve high up-front investments and potentially disruptive changes that can be lessened by a range of enabling policies (high confidence).",
+      "chapter":"The Benefits of Near-Term Action",
+      "transformed":"In a world that’s spinning fast, we gotta take a stand,  \nDeep breaths for the future, let’s lend a helping hand.  \nIf we act right now, we can turn the tide,  \nSave our skies, heal our hearts, let love be our guide.  \nBut if we wait too long, we’ll pay the price,  \nLocked in high emissions, rollin’ the dice.  \nSo let’s invest in change, let’s break the"
+   },
+   {
+      "row_id":14,
+      "item":"C.3 Rapid and far-reaching transitions across all sectors and systems are necessary to achieve deep and sustained emissions reductions and secure a liveable and sustainable future for all. These system transitions involve a significant upscaling of a wide portfolio of mitigation and adaptation options. Feasible, effective, and low-cost options for mitigation and adaptation are already available, with differences across systems and regions. (high confidence).",
+      "chapter":"Mitigation and Adaptation Options across Systems",
+      "transformed":"In a world that’s changing fast, we gotta make it last,  \nDeep breaths for a future, where our hearts can beat at last.  \nWith every step we take, we’ll rise and we’ll create,  \nA brighter path ahead, where love can navigate.  \nOptions in our hands, we’ll find a way to stand,  \nTogether we can heal, and make this world so grand.  \nWith hope as our guide, we’ll turn the tide,  \n"
+   },
+   {
+      "row_id":15,
+      "item":"C.4 Accelerated and equitable action in mitigating and adapting to climate change impacts is critical to sustainable development. Mitigation and adaptation actions have more synergies than trade-offs with Sustainable Development Goals. Synergies and trade-offs depend on context and scale of implementation (high confidence).",
+      "chapter":"Synergies and Trade-Offs with Sustainable Development (1)",
+      "transformed":"In a world where the winds are changing,  \nWe rise up, hearts rearranging,  \nMitigation’s our song, adaptation’s the key,  \nTogether we’ll dance, setting our spirits free.  \nWith every heartbeat, we’ll find our way,  \nSustainable dreams in the light of day,  \nNo trade-offs here, just a symphony,  \nIn this fight for our future, we’ll find harmony."
+   },
+   {
+      "row_id":16,
+      "item":"C.5 Prioritising equity, climate justice, social justice, inclusion and just transition processes can enable adaptation and ambitious mitigation actions and climate resilient development. Adaptation outcomes are enhanced by increased support to regions and people with the highest vulnerability to climatic hazards. Integrating climate adaptation into social protection programs improves resilience. Many options are available for reducing emission-intensive consumption, including through behavioural and lifestyle changes, with co-benefits for societal well-being. (high confidence)",
+      "chapter":"Synergies and Trade-Offs with Sustainable Development (2)",
+      "transformed":"In a world where the storms collide,  \nWe rise for justice, side by side,  \nWith every heart that’s been left behind,  \nWe’ll fight for the future, for every kind.  \nAdapt and thrive, we’ll take a stand,  \nFor the ones who need a helping hand,  \nTogether we’ll change, rewrite the song,  \nIn this dance of hope, we’ll prove them wrong."
+   },
+   {
+      "row_id":17,
+      "item":"C.6 Effective climate action is enabled by political commitment, well-aligned multilevel governance, institutional frameworks, laws, policies and strategies and enhanced access to finance and technology. Clear goals, coordination across multiple policy domains, and inclusive governance processes facilitate effective climate action. Regulatory and economic instruments can support deep emissions reductions and climate resilience if scaled up and applied widely. Climate resilient development benefits from drawing on diverse knowledge. (high confidence).",
+      "chapter":"Governance and Policies",
+      "transformed":"In the halls of power, where the voices rise,  \nWe need a spark, a fire in their eyes,  \nWith laws and dreams, we’ll build a way,  \nTogether we’ll rise, come what may.  \nClear goals shining like stars in the night,  \nLet’s weave our hopes, make the future bright,  \nWith every step, we’ll break the chains,  \nFor a world that’s ours, we’ll dance in the rain."
+   },
+   {
+      "row_id":18,
+      "item":"C.7 Finance, technology and international cooperation are critical enablers for accelerated climate action. If climate goals are to be achieved, both adaptation and mitigation financing would need to increase many-fold. There is sufficient global capital to close the global investment gaps but there are barriers to redirect capital to climate action. Enhancing technology innovation systems is key to accelerate the widespread adoption of technologies and practices. Enhancing international cooperation is possible through multiple channels (high confidence).",
+      "chapter":"Finance, Technology and International Cooperation",
+      "transformed":"In a world where the skies are changing,  \nWe need the light of hope, not just rearranging,  \nFinance and tech, hand in hand,  \nBuilding bridges, we’ll take a stand.  \nWith every dollar, we can break the chains,  \nRedirecting dreams through the pouring rain,  \nTogether we rise, let’s make it right,  \nFor a future shining, oh, we’ll ignite."
+   }
+]

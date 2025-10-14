@@ -157,7 +157,7 @@ import { base } from '$app/paths';
                     <p class="text-emphasis">I want to translate:</p>
                     <p class="text-emphasis">into:</p>
                 </div>
-                <div class="text-column">
+                <div class="select-column">
                     <select class="dataset-select" bind:value={selectedSource}>
                         {#each options as option}
                             <option value={option.value}>{option.label}</option>
@@ -173,7 +173,6 @@ import { base } from '$app/paths';
             <div 
                 class="toggle-button"
                 on:click={toggleDataset}> 
-                <span>↕</span>
             </div>
         </div>
 
@@ -211,7 +210,7 @@ import { base } from '$app/paths';
 <style>
     @import url("https://use.typekit.net/pcv4xjp.css");
 
-    body {
+   :global(body) {
         background-color: #F2F2F2;
     }
 
@@ -236,13 +235,20 @@ import { base } from '$app/paths';
 
     .text-emphasis {
         text-align: right;
-        line-height: 10px;
+        margin: 10px 0;
     }
 
     .text-column {
         display: flex;
         flex-direction: column;
         margin-right: 10px;
+        gap: 8px;
+    }
+
+    .select-column {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
     }
 
     .dataset-select {
@@ -267,12 +273,16 @@ import { base } from '$app/paths';
     .toggle-button {
         display: flex;
         justify-content: center;
-        align-content: center;
+        align-items: center;
         width: 30px;
         height: 30px;
         padding: 8px;
         align-self: center;
-        background-color: #FAFBFC;
+        background-color: #F2F2F2;
+        background-image: url('/double-arrow-svgrepo-com.svg');
+        background-size: 16px 16px;
+        background-position: center;
+        background-repeat: no-repeat;
         border: 1px solid #24292E;
         border-radius: 50%;
         box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
@@ -293,11 +303,7 @@ import { base } from '$app/paths';
         transition-duration: 0.1s;
     }
 
-    .toggle-button span {
-        font-size: 20px;
-        text-align: center;
-        line-height: 6px;
-    }
+
 
     .toggle-button:active {
         background-color: #EDEFF2;
@@ -329,8 +335,7 @@ import { base } from '$app/paths';
         line-height: 1.5;
         padding: 8px 32px 8px 0;
         width: 320px;
-        min-width: fit-content;
-        max-width: 100vw;
+        max-width: 80vw;
         margin: 20px 0 0 0;
         font-family: "recursive-sans-linear-static", sans-serif; 
     }
@@ -366,6 +371,20 @@ import { base } from '$app/paths';
     .transformed-text {
         margin-left: 20px;
         color:#24292E
+    }
+
+    /* Mobile styles */
+    @media (max-width: 500px) {
+
+        .select-column {
+            margin-top: 20px;
+            gap: 8px;
+        }
+
+        .toggle-button {
+            margin-top: 20px;
+        }
+    
     }
 
 </style>
