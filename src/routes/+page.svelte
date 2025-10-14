@@ -235,7 +235,6 @@ import { base } from '$app/paths';
 
     .text-emphasis {
         text-align: right;
-        margin: 10px 0;
     }
 
     .text-column {
