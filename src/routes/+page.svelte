@@ -154,7 +154,7 @@ import { base } from '$app/paths';
         <div class="dataset-toggle">
             <div class="text-container">
                 <div class="text-column">
-                    <p class="text-emphasis">I want to translate:</p>
+                    <p class="text-emphasis">Translate:</p>
                     <p class="text-emphasis">into:</p>
                 </div>
                 <div class="select-column">
@@ -226,6 +226,7 @@ import { base } from '$app/paths';
 
     .dataset-toggle {
         display: flex;
+        justify-content: center;
     }
 
     .text-container {
@@ -242,12 +243,15 @@ import { base } from '$app/paths';
         flex-direction: column;
         margin-right: 10px;
         gap: 8px;
+        width: max-content;
+        flex-shrink: 0;
     }
 
     .select-column {
         display: flex;
         flex-direction: column;
-        gap: 8px;
+        gap: 18px;
+        margin-top: 4px;
     }
 
     .dataset-select {
@@ -334,7 +338,7 @@ import { base } from '$app/paths';
         line-height: 1.5;
         padding: 8px 32px 8px 0;
         width: 320px;
-        max-width: 80vw;
+        max-width: 100vw;
         margin: 20px 0 0 0;
         font-family: "recursive-sans-linear-static", sans-serif; 
     }
@@ -376,12 +380,12 @@ import { base } from '$app/paths';
     @media (max-width: 500px) {
 
         .select-column {
-            margin-top: 20px;
-            gap: 8px;
+            margin-top: 5px;
+            gap: 17px;
         }
 
         .toggle-button {
-            margin-top: 20px;
+            align-self: center;
         }
     
     }
