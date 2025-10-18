@@ -17,8 +17,11 @@ import { base } from '$app/paths';
     let selectedSpeech = null;
     
     let expandedItems = new Set();
-    let selectedSource = '';
+    let selectedSource = 'taylor';
     let selectedTarget = 'ipcc';
+
+    $: selectedSourceLabel = selectedSource=='taylor' ? 'Taylor Swift' : 'IPCC';
+    $: selectedTargetLabel = selectedTarget=='taylor' ? 'Taylor Swift' : 'IPCC';
 
     const options = [
         { value: 'ipcc', label: 'IPCC' },
@@ -28,17 +31,18 @@ import { base } from '$app/paths';
 
     // computed values
     $: transformationKey = `${selectedSource}-to-${selectedTarget}`;
-    $: currentData = getDataForTransformation(transformationKey);
-    $: currentOptions = getCurrentOptions(selectedSource, transformationKey);
+    $: currentData = getDataForTransformation(transformationKey, tayToIpcc);
+    $: currentOptions = getCurrentOptions(selectedSource, transformationKey, songTitles);
     $: currentSelection = getCurrentSelection(selectedSource);
     $: placeholderText = getPlaceholderText(selectedSource);
+
     $: validTargets = selectedSource === 'ipcc' 
         ? options.filter(opt => opt.value !== 'ipcc') 
         : options.filter(opt => opt.value === 'ipcc');
     $: if (selectedSource !== 'ipcc' && selectedTarget !== 'ipcc') {
         selectedTarget = 'ipcc';
     } else if (selectedSource === 'ipcc' && selectedTarget === 'ipcc') {
-        selectedTarget = 'greta'; // Default to greta when source is ipcc
+        selectedTarget = 'greta'; 
     }
 
 
@@ -53,7 +57,7 @@ import { base } from '$app/paths';
         return false;
     })
 
-    function getDataForTransformation(key) {
+    function getDataForTransformation(key, tayToIpcc) {
         switch(key) {
             case 'taylor-to-ipcc': return tayToIpcc;
             case 'ipcc-to-taylor': return ipccToTay;
@@ -65,10 +69,7 @@ import { base } from '$app/paths';
 
     function getCurrentOptions(source, transformationKey) {
         if (source === 'taylor') return songTitles;
-        if (source === 'ipcc') {
-            if (transformationKey === 'ipcc-to-taylor') return chapterTitles;
-            if (transformationKey === 'ipcc-to-greta') return chapterTitles; 
-        }
+        if (source === 'ipcc') return chapterTitles;
         if (source === 'greta') return speechTitles;
         return [];
     }
@@ -146,8 +147,8 @@ import { base } from '$app/paths';
         speechTitles = [...new Set(gretaToIpcc.map(verse => verse.paragraph || 'Unknown Paragraph'))];
 
     })
-    
 
+    getCurrentOptions(selectedSource, transformationKey);
 
 </script>
     <main>
@@ -158,16 +159,8 @@ import { base } from '$app/paths';
                     <p class="text-emphasis">into:</p>
                 </div>
                 <div class="select-column">
-                    <select class="dataset-select" bind:value={selectedSource}>
-                        {#each options as option}
-                            <option value={option.value}>{option.label}</option>
-                        {/each}
-                    </select>
-                    <select class="dataset-select" bind:value={selectedTarget}>
-                        {#each validTargets as option}
-                            <option value={option.value}>{option.label}</option>
-                        {/each}
-                    </select>
+                    <p class="select-column-text">{selectedSourceLabel}</p>
+                    <p class="select-column-text">{selectedTargetLabel}</p>
                 </div>
             </div>
             <div 
@@ -177,7 +170,7 @@ import { base } from '$app/paths';
         </div>
 
         <div class="selection-container">
-            {#if currentData.length > 0}
+            {#if currentOptions.length > 0}
                 <div class="dropdown-wrapper">
                     <select class="selection-dropdown"
                             value={currentSelection}
@@ -208,17 +201,9 @@ import { base } from '$app/paths';
     </main>
 
 <style>
-    @import url("https://use.typekit.net/pcv4xjp.css");
-
-   :global(body) {
-        background-color: #F2F2F2;
-    }
 
     main {
-        max-width: 400px;
-        margin: 0 auto;
         padding: 20px;
-        font-family: "recursive-sans-linear-static", sans-serif; 
         line-height: 1.3;
         font-size: 14px;
         color: #24292E;
@@ -236,13 +221,13 @@ import { base } from '$app/paths';
 
     .text-emphasis {
         text-align: right;
+        margin: 8px 0;
     }
 
     .text-column {
         display: flex;
         flex-direction: column;
         margin-right: 10px;
-        gap: 8px;
         width: max-content;
         flex-shrink: 0;
     }
@@ -250,11 +235,14 @@ import { base } from '$app/paths';
     .select-column {
         display: flex;
         flex-direction: column;
-        gap: 18px;
-        margin-top: 4px;
     }
 
-    .dataset-select {
+    .select-column-text {
+        margin: 8px 0;
+        text-decoration: underline;
+    }
+
+    /* .dataset-select {
         appearance: none;
         background: transparent;
         background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
@@ -271,7 +259,8 @@ import { base } from '$app/paths';
         min-width: fit-content;
         max-width: 100vw;
         font-family: "recursive-sans-linear-static", sans-serif; 
-    }
+        user-select: none;
+    } */
 
     .toggle-button {
         display: flex;
@@ -305,8 +294,6 @@ import { base } from '$app/paths';
         text-decoration: none;
         transition-duration: 0.1s;
     }
-
-
 
     .toggle-button:active {
         background-color: #EDEFF2;
