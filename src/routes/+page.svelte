@@ -2,6 +2,7 @@
 import { onMount } from 'svelte';
 import { slide } from 'svelte/transition';
 import { base } from '$app/paths';
+import { tayToIpccTemp } from '$lib/stores';
 
     let tayToIpcc = [];
     let ipccToTay = [];
@@ -146,9 +147,9 @@ import { base } from '$app/paths';
         chapterTitles = [...new Set(ipccToTay.map(verse => verse.chapter || 'Unknown Chapter'))];
         speechTitles = [...new Set(gretaToIpcc.map(verse => verse.paragraph || 'Unknown Paragraph'))];
 
-    })
+        tayToIpccTemp.set(tayToIpcc);
 
-    getCurrentOptions(selectedSource, transformationKey);
+    })
 
 </script>
     <main>

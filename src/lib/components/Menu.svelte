@@ -7,7 +7,7 @@
 
 <div class="menu">
     <a href="{base}/" class:active={$page.url.pathname === base + '/' || $page.url.pathname === base}>Translate</a>
-    <a href="{base}/quiz" class:active={$page.url.pathname === base + '/quiz/'}>Quiz</a>
+    <a href="{base}/quiz" class:active={$page.url.pathname === base + '/quiz/'}>Guess</a>
 </div>
 
 <style>
